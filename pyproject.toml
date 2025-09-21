@@ -1,0 +1,23 @@
+[project]
+dependencies = [
+  "langchain>=0.3.27",
+  "langchain-mcp-adapters>=0.1.10",
+  "langchain-mistralai>=0.2.12",
+  "langchain-openai>=0.3.33",
+  "langchain-tavily>=0.2.11",
+  "mistralai>=1.9.10",
+  "openai>=1.108.1",
+  "pillow>=11.3.0",
+  "pyinstaller>=6.16.0",
+  "python-dotenv>=1.1.1",
+  "tensorflow>=2.20.0",
+  "tf-keras>=2.20.1",
+  "torch>=2.8.0",
+  "torchvision>=0.23.0",
+  "transformers>=4.56.2",
+]
+description = "Add your description here"
+name = "fact-forensic-agent"
+readme = "README.md"
+requires-python = "==3.12.*"
+version = "0.1.0"

@@ -1,0 +1,5 @@
+[[local-agent]]
+path = "../../"
+
+[[local-agent]]
+path = "agents/interface"

@@ -1,0 +1,3 @@
+[submodule "coral-server"]
+	path = examples/local-studio/coral-server
+	url = https://github.com/Coral-Protocol/coral-server.git

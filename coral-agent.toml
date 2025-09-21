@@ -1,0 +1,47 @@
+[agent]
+description = "An agent which specialises in analysing facts"
+name = "fact-forensics"
+version = "0.0.1"
+
+[options.MODEL_API_KEY]
+description = "API key for the model provider"
+type = "string"
+
+[options.MISTRAL_API_KEY]
+description = "API key for the Mistral provider"
+type = "string"
+
+[options.TAVILY_API_KEY]
+description = "API key for the Tavily search provider"
+type = "string"
+
+[options.MODEL_NAME]
+default = "gpt-4.1-mini"
+description = "What model to use (e.g 'gpt-4.1')"
+type = "string"
+
+[options.MODEL_PROVIDER]
+default = "openai"
+description = "What model provider to use (e.g 'openai', etc)"
+type = "string"
+
+[options.MODEL_MAX_TOKENS]
+default = "16000"
+description = "Max tokens to use"
+type = "string"
+
+[options.MODEL_TEMPERATURE]
+default = "0.3"
+description = "What model temperature to use"
+type = "string"
+
+[options.TIMEOUT_MS]
+default = "300"
+description = "Connection/tool timeouts in ms"
+type = "string"
+
+[runtimes.executable]
+command = ["bash", "-c", "ls && ./run_agent.sh main.py"]
+
+# [runtimes.docker]
+# image = "yggie/coral-fact-forensics-agent"

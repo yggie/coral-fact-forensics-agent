@@ -1,0 +1,36 @@
+[agent]
+description = "Agent designed to interface with the end user"
+name = "interface"
+version = "0.0.1"
+
+[options.MODEL_API_KEY]
+description = "API key for the model provider"
+type = "string"
+
+[options.MODEL_NAME]
+default = "mistral-large-2411"
+description = "What model to use (e.g 'gpt-4.1')"
+type = "string"
+
+[options.MODEL_PROVIDER]
+default = "mistralai"
+description = "What model provider to use (e.g 'openai', etc)"
+type = "string"
+
+[options.MODEL_MAX_TOKENS]
+default = "16000"
+description = "Max tokens to use"
+type = "string"
+
+[options.MODEL_TEMPERATURE]
+default = "0.3"
+description = "What model temperature to use"
+type = "string"
+
+[options.TIMEOUT_MS]
+default = "60000"
+description = "Connection/tool timeouts in ms"
+type = "string"
+
+[runtimes.executable]
+command = ["bash", "-c", "./run_agent.sh main.py"]
