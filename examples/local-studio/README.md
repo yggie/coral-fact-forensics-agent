@@ -1,4 +1,4 @@
-# Multi Agent Demo
+# Local Studio Demo
 
 > [!TIP]
 > Updated for Coral Server v1
@@ -36,6 +36,9 @@ npx @coral-protocol/coral-studio
 ```
 
 We can then visit Coral Studio at [http://localhost:3000/](http://localhost:3000/)
+
+For more detailed instructions on getting the agents to communicate together, see
+this [YouTube video](https://www.youtube.com/watch?v=bNrGGcUoe4w)
 
 # What next?
 Check out our [docs](https://docs.coralprotocol.org/) for more information on how Coral Studio works, how to write agents that work with Coral, and using Coral in your applications.
