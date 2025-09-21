@@ -3,3 +3,9 @@ path = "../../"
 
 [[local-agent]]
 path = "agents/interface"
+
+[local-agent.export.docker]
+quantity = 2
+
+# The pricing table is mostly a placeholder until payments are implemented
+pricing = {min_price = {type = "usd", amount = 1.00}, max_price = {type = "usd", amount = 10.0}}
